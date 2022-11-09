@@ -1,0 +1,45 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Database_Project</Name>
+    <Description>&lt;Uygun açıklama yok&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Database_Project</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Database_Project.csproj" File="Database_Project.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Database_Project_TemporaryKey.pfx">Database_Project_TemporaryKey.pfx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmLoginPanel.cs">FrmLoginPanel.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmLoginPanel.Designer.cs">FrmLoginPanel.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmLoginPanel.resx">FrmLoginPanel.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmMainForm.cs">FrmMainForm.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmMainForm.Designer.cs">FrmMainForm.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmMainForm.resx">FrmMainForm.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmNewCustomer.cs">FrmNewCustomer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmNewCustomer.Designer.cs">FrmNewCustomer.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmNewCustomer.resx">FrmNewCustomer.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmRooms.cs">FrmRooms.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmRooms.Designer.cs">FrmRooms.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmRooms.resx">FrmRooms.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Reservations.cs">Reservations.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Reservations.Designer.cs">Reservations.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Reservations.resx">Reservations.resx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
